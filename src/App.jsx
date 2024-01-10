@@ -28,12 +28,12 @@ function App() {
           <h1 className='
            font-raleway font-bold text-2xl text-white px-5 pt-4 leading-9 z-20'>All your files in one secure location, accessible anywhere.</h1>
 
-          <p className=' text-white px-7 py-2 z-20'>
+          <p className=' text-white px-7 pt-4 pb-8  z-20'>
           Fylo stores all your most important files in one secure location. Access them wherever 
           you need, share and collaborate with friends family, and co-workers.
           </p>
 
-          <button className='bg-Cyan-grdaient text-white p-2 rounded-lg w-3/4 z-20'>Get Started</button>
+          <button className='bg-Cyan-grdaient text-white p-3 rounded-3xl w-60 z-20'>Get Started</button>
 
         </section>
       </main>
