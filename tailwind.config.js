@@ -34,7 +34,7 @@ export default {
         'Light-Red-error': "hsl(0, 100%, 63%)"
       },
       backgroundPosition:{
-        'center-bottom': 'center 80%',
+        'center-bottom': 'center 10%',
       }
     },
   },

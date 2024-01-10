@@ -1,9 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
 img {
-    max-width: 100%;
+  max-width: 100%;
+}
+.hero {
+  position: relative;
+
+}
+.hero::after {
+  content: '';
+  position: absolute;
+  background: hsl(218, 28%, 13%);
+  z-index: 2;
+  height: 182px;
+  width: 100%;
+  bottom: 10px;
 }
 
-@tailwind base;
+
+@tailwind base; 
 @tailwind components;
 @tailwind utilities;
