@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap');
 
+
 img {
   max-width: 100%;
 }
+
+body {
+  font-family: 'Open sans', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Raleway', sans-serif;
+}
+
 .hero {
   position: relative;
   background-image: url('/images/bg-curvy-mobile.svg');
@@ -12,11 +22,24 @@ img {
   content: '';
   position: absolute;
   background: hsl(218, 28%, 13%);
-  z-index: 2;
-  height: 210px;
+  z-index: 1;
+  height: 280px;
   width: 100%;
-  bottom: 10px;
+  bottom: -40px;
 }
+
+/* .testimonials {
+  position: relative;
+}
+
+.testimonials::before {
+  content: '';
+  position: absolute;
+  background: url('/images/bg-quotes.png') no-repeat;
+  z-index: 1;
+  height: 50px;
+  width: 100%;
+} */
 
 
 @tailwind base; 
