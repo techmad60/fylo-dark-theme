@@ -22,7 +22,7 @@ function App() {
 
 
       <main className=''>
-        <section className='hero flex items-center flex-col justify-center min-h-full text-center bg-curvy-mobile bg-no-repeat bg-center lg:bg-curvy-desktop lg:bg-bottom z-20'> 
+        <section className='hero flex items-center flex-col justify-center min-h-full text-center bg-no-repeat bg-center lg:bg-curvy-desktop lg:bg-bottom z-20'> 
           <img src="./images/illustration-intro.png" alt="" className='px-5 z-20' /> 
 
           <h1 className='

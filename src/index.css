@@ -5,6 +5,7 @@ img {
 }
 .hero {
   position: relative;
+  background-image: url('/images/bg-curvy-mobile.svg');
 
 }
 .hero::after {
