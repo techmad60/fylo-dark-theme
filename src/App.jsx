@@ -9,7 +9,7 @@ function App() {
         <div className='flex p-5 justify-between items-center '>
           <img src="./images/logo.svg" alt="" className=
           'w-24'/>
-          <nav>
+          <nav aria-label='header-nav'>
             <ul className='flex space-x-5 text-white text-sm'
             >
               <li>Features</li>
@@ -21,7 +21,7 @@ function App() {
       </header>
 
 
-      <main className=''>
+      <main className='flex flex-col justify-center items-center'>
         <section className='hero flex items-center flex-col justify-center min-h-full text-center bg-no-repeat bg-center lg:bg-curvy-desktop lg:bg-bottom z-20 py-4'> 
           <img src="./images/illustration-intro.png" alt="" className='px-5 z-20' /> 
 
@@ -33,7 +33,7 @@ function App() {
           you need, share and collaborate with friends family, and co-workers.
           </p>
 
-          <button className='bg-Cyan-grdaient text-white p-3 rounded-3xl w-60 z-20'>Get Started</button>
+          <button className='bg-Cyan-grdaient text-white p-3 rounded-3xl w-60 z-20 font-semibold'>Get Started</button>
         </section>
 
         <section className=' bg-Dark-Blue-main text-center'>
@@ -87,8 +87,8 @@ function App() {
           </div>
         </section>
 
-        <section className='testimonials flex flex-col items-center justify-center bg-Dark-Blue-main text-white pt-44 text-sm'  >
-          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-sm mb-6'>
+        <section className='testimonials-firstchild flex flex-col items-center justify-center bg-Dark-Blue-main text-white pt-44 text-sm'>
+          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
@@ -100,7 +100,7 @@ function App() {
             </div>
           </div>
 
-          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-sm mb-6'>
+          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
@@ -111,7 +111,7 @@ function App() {
               </div>
             </div>
           </div>
-          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-sm mb-6'>
+          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
@@ -122,63 +122,71 @@ function App() {
               </div>
             </div>
           </div>
-          
         </section>
+        
+        <div className='relative w-full flex justify-center items-center top-44'>
+          <section className='email flex items-center flex-col justify-center justify-self-end text-white bg-Dark-Blue-testimonials text-center w-11/12 rounded-md shadow-black px-6 py-3 z-50'>
+            <h2 className='text-xl font-semibold py-4'>Get early access today</h2>
+
+            <p className='pb-3'>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+            questions, our support team would be happy to help you.</p>
+
+            <input type="email" className='w-full placeholder:text-sm py-3 px-5 rounded-3xl my-3 text-black' placeholder='email@example.com'/>
+            <button className='bg-Cyan-grdaient w-full py-3 rounded-3xl mt-3 mb-5' type='submit'> Get Started For Free</button>
+          </section>
+        </div>
+        
       </main>
+
+      <footer className='bg-Dark-Blue-footer flex flex-col text-white px-5'>
+        <div className='mt-56 '>
+          <div className='py-5'>
+            <img src="/images/logo.svg" alt="" />
+          </div>
+        </div>
+
+        <div className='flex flex-col py-4'>
+          <div className='flex space-x-4 items-baseline py-3'>
+            <img src="/images/icon-location.svg" alt="" />
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+            dolore magna aliqua
+            </p>
+          </div>
+          <div className='flex space-x-4 items-baseline py-3'>
+            <img src="/images/icon-phone.svg" alt="" />
+            <p> +1-543-123-4567
+            </p>
+          </div>
+          <div className='flex space-x-4 items-center py-3'>
+            <img src="/images/icon-email.svg" alt="" />
+            <p> example@fylo.com
+            </p>
+          </div>
+        </div>
+        
+        <nav aria-label='footer-nav'>
+          <ul className='leading-9 py-4'>
+            <li>About Us</li>
+            <li>Jobs</li>
+            <li> Press</li>
+            <li>Blog</li>
+          </ul>
+          <ul className='leading-9 py-4'>
+            <li>Contact Us</li>
+            <li>Terms</li>
+            <li> Privacy</li>
+          </ul>
+
+          <ul className='text-white flex space-x-3 text-center mx-auto w-full justify-center items-center my-6'>
+            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 flex w-50  h-50  fa-brands fa-facebook-f"></i></li>
+
+            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 flex w-50  h-50  fa-brands fa-x-twitter"></i></li>
+
+            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 flex w-50  h-50  fa-brands fa-instagram"></i></li>
+          </ul>
+        </nav>
+      </footer>
     </div>
-
-   
-      
-  
-  
-
- 
-
- 
-
-
-
-  
-
-
-
-
-  
-
-
-  
-
-  // 
-  // 
-
-
-
-  // Iva Boyd
-  // Founder & CEO, Huddle
-
-  // Get early access today
-
-  // It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-  // questions, our support team would be happy to help you.
-
-  // Get Started For Free
-
-  // Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
-  // dolore magna aliqua
-
-  // +1-543-123-4567
-  // example@fylo.com
-
-  // About Us
-  // Jobs
-  // Press
-  // Blog
-
-  // Contact Us
-  // Terms
-  // Privacy */}
-
-  //   // </>
   )
 }
 

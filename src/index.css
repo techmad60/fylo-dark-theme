@@ -28,18 +28,18 @@ h1, h2, h3 {
   bottom: -40px;
 }
 
-/* .testimonials {
+.testimonials-firstchild {
   position: relative;
+  z-index: 2;
 }
 
-.testimonials::before {
-  content: '';
+.testimonials-firstchild::before {
+  content: url("images/bg-quotes.png");
   position: absolute;
-  background: url('/images/bg-quotes.png') no-repeat;
-  z-index: 1;
-  height: 50px;
-  width: 100%;
-} */
+  top: 140px; 
+  left: 40px;
+  z-index: -1;
+}
 
 
 @tailwind base; 
