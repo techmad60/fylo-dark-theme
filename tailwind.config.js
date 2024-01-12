@@ -23,6 +23,8 @@ export default {
 
         'Dark-Blue-main': "hsl(218, 28%, 13%)",
 
+        'Dark-Blue-email': "hsl(217, 28%, 15%)",
+
         'Dark-Blue-footer': "hsl(216, 53%, 9%)",
 
         'Dark-Blue-testimonials': " hsl(219, 30%, 18%)",

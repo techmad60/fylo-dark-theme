@@ -87,7 +87,7 @@ function App() {
           </div>
         </section>
 
-        <section className='testimonials-firstchild flex flex-col items-center justify-center bg-Dark-Blue-main text-white pt-44 text-sm'>
+        <section className='testimonials-firstchild flex flex-col items-center justify-center bg-Dark-Blue-main text-white pb-96 pt-44 text-sm'>
           <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
@@ -124,16 +124,18 @@ function App() {
           </div>
         </section>
         
-        <div className='relative w-full flex justify-center items-center top-44'>
-          <section className='email flex items-center flex-col justify-center justify-self-end text-white bg-Dark-Blue-testimonials text-center w-11/12 rounded-md shadow-black px-6 py-3 z-50'>
-            <h2 className='text-xl font-semibold py-4'>Get early access today</h2>
+        <div className='relative flex justify-center items-center w-full'>
+        <section className='email flex items-center flex-col justify-center justify-self-end text-white absolute  bg-Dark-Blue-email text-center w-11/12 rounded-md shadow-black shadow-md px-6 pt-3 z-50 pb-8'>
+          <h2 className='text-xl font-semibold py-4'>Get early access today</h2>
 
-            <p className='pb-3'>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
-            questions, our support team would be happy to help you.</p>
-
-            <input type="email" className='w-full placeholder:text-sm py-3 px-5 rounded-3xl my-3 text-black' placeholder='email@example.com'/>
-            <button className='bg-Cyan-grdaient w-full py-3 rounded-3xl mt-3 mb-5' type='submit'> Get Started For Free</button>
-          </section>
+          <p className='pb-3'>It only takes a minute to sign up and our free starter tier is extremely generous. If you have any 
+          questions, our support team would be happy to help you.</p>
+          
+          <form>
+            <input type="email" placeholder="email@example.com" className='w-full placeholder:text-sm py-3 px-5 rounded-3xl my-3 text-black' />
+            <input className="cta bg-Cyan-grdaient w-full py-3 rounded-3xl mt-3 mb-5'" type="submit" value="Get Started For Free" />
+          </form>
+        </section>
         </div>
         
       </main>
@@ -178,12 +180,13 @@ function App() {
           </ul>
 
           <ul className='text-white flex space-x-3 text-center mx-auto w-full justify-center items-center my-6'>
-            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 flex w-50  h-50  fa-brands fa-facebook-f"></i></li>
+            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 w-10 h-10 fa-brands fa-facebook-f"></i></li>
 
-            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 flex w-50  h-50  fa-brands fa-x-twitter"></i></li>
+            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 w-10 h-10 fa-brands fa-twitter"></i></li>
 
-            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 flex w-50  h-50  fa-brands fa-instagram"></i></li>
-          </ul>
+            <li className='flex justify-center items-center border border-white rounded-full'><i class="p-3 w-10 h-10 fa-brands fa-instagram"></i></li>
+        </ul>
+
         </nav>
       </footer>
     </div>
