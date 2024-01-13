@@ -41,6 +41,17 @@ h1, h2, h3 {
   z-index: -1;
 }
 
+@media screen and (min-width: 1024px) {
+  .hero {
+    position: relative;
+    background-image: url('/images/bg-curvy-desktop.svg');
+  
+  }
+  .hero::after {
+    display: none
+  }
+}
+
 
 @tailwind base; 
 @tailwind components;
