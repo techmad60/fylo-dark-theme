@@ -18,8 +18,10 @@ function App() {
    
     tl.from(".logo", {duration: 1.5, opacity: 0, scale: 0.3, ease: "back", delay: 1});
     tl.from(".header-link", {duration: 1.5, opacity: 0, scale: 0.3, ease: "back", stagger: 0.25});
+    tl.from(".main", {duration: 1.5, opacity: 0, scale: 0.3, ease: "bounce"});
+
     tl.from(".illustration-img-one", {duration: 1.5, x: '-100%', ease: 'bounce'});
-    tl.from(".intro", {duration: 1.5, opacity: 0, scale: 0.3, ease: "bounce", delay: 1});
+    tl.from(".intro", {duration: 1.5, opacity: 0, scale: 0.3, ease: "back", delay: 1});
 
 
     
