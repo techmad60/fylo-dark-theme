@@ -2,9 +2,9 @@ import React from 'react'
 
 const Main = () => {
   return (
-    <main className='flex flex-col justify-center items-center '>
+    <main className='main flex flex-col justify-center items-center '>
         <section className='hero flex items-center flex-col justify-center min-h-full text-center bg-no-repeat bg-center  lg:bg-bottom z-20 py-4'> 
-          <img src="./images/illustration-intro.png" alt="" className='px-5 z-20 lg:my-4' /> 
+          <img loading='lazy' src="./images/illustration-intro.png" alt="" className='illustration-img-one px-5 z-20 lg:my-4' /> 
 
           <h1 className='
            font-raleway font-bold text-2xl text-white px-5 pt-4 leading-9 z-20 lg:text-4xl lg:leading-[3.5rem]'>All your files in one secure location,<br className='hidden lg:block pt-4 lg:py-4'/> accessible anywhere.</h1>
@@ -20,7 +20,7 @@ const Main = () => {
         <div className='bg-Dark-Blue-main text-center flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-2'>
           <section className=''>
             <div className='pt-32 flex items-center justify-center flex-col text-white lg:pt-28'>
-              <img src="/images/icon-access-anywhere.svg" alt="" />
+              <img loading='lazy' src="/images/icon-access-anywhere.svg" alt="" />
               <h2 className='text-xl pt-10 font-bold'>Access your files, anywhere</h2>
               <p className='px-8 py-3'>The ability to use a smartphone, tablet, or computer to access your account means your 
             files follow you everywhere.</p>
@@ -29,7 +29,7 @@ const Main = () => {
 
           <section className=''>
             <div className='pt-24 flex items-center justify-center flex-col text-white'>
-              <img src="/images/icon-security.svg" alt=""/>
+              <img loading='lazy' src="/images/icon-security.svg" alt=""/>
               <h2 className='text-xl pt-10 font-bold'>Security you can trust</h2>
               <p className='px-8 py-3'>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
             </div>
@@ -37,7 +37,7 @@ const Main = () => {
 
           <section className=''>
             <div className='pt-24 flex items-center justify-center flex-col text-white'>
-              <img src="/images/icon-collaboration.svg" alt="" />
+              <img loading='lazy' src="/images/icon-collaboration.svg" alt="" />
               <h2 className='text-xl pt-10 font-bold'>Real-time collaboration</h2>
               <p className='px-8 py-3'>Securely share files and folders with friends, family and colleagues for live collaboration. 
               No email attachments required.
@@ -46,7 +46,7 @@ const Main = () => {
           </section>
           <section className=''>
             <div className='pt-24 flex items-center justify-center flex-col text-white '>
-              <img src="/images/icon-any-file.svg" alt="" />
+              <img loading='lazy' src="/images/icon-any-file.svg" alt="" />
               <h2 className='text-xl pt-10 font-bold'>Store any type of file</h2>
               <p className='px-8 py-3'> Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
               file types to be securely stored and shared.</p>
@@ -57,7 +57,7 @@ const Main = () => {
         <section className=' bg-Dark-Blue-main text-start w-full'>
           <div className='pt-32 flex  flex-col text-white px-5 lg:grid lg:grid-cols-2 lg:justify-between lg:items-center lg:px-10 lg:space-x-8'>
             <div className='flex-grow'>
-              <img src="/images/illustration-stay-productive.png" alt="" />
+              <img loading='lazy' src="/images/illustration-stay-productive.png" alt="" />
             </div>
             
             <div>
@@ -70,7 +70,7 @@ const Main = () => {
               </p>
               <div className='text-start flex items-center space-x-2 py-2 border-b border-cyan-300 w-fit'>
                 <p className='text-cyan-300'>See how Fylo works</p>
-                <img src="/images/icon-arrow.svg" alt="" className='w-5'/>
+                <img loading='lazy' src="/images/icon-arrow.svg" alt="" className='w-5'/>
               </div>
             </div>
           </div>
@@ -81,7 +81,7 @@ const Main = () => {
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
-              <img src="/images/profile-1.jpg" alt="" className='w-12 h-12 rounded-full' />
+              <img loading='lazy' src="/images/profile-1.jpg" alt="" className='w-12 h-12 rounded-full' />
               <div className='leading-6 '>
                 <h3 className='font-bold tracking-wider'>Satish Patel</h3>
                 <p className='text-xs'>Founder & CEO, Huddle</p>
@@ -93,7 +93,7 @@ const Main = () => {
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
-              <img src="/images/profile-2.jpg" alt="" className='w-12 h-12 rounded-full' />
+              <img loading='lazy' src="/images/profile-2.jpg" alt="" className='w-12 h-12 rounded-full' />
               <div className='leading-6 '>
                 <h3 className='font-bold tracking-wider'>Bruce McKenzie</h3>
                 <p className='text-xs'>Founder & CEO, Huddle</p>
@@ -104,7 +104,7 @@ const Main = () => {
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
-              <img src="/images/profile-3.jpg" alt="" className='w-12 h-12 rounded-full' />
+              <img loading='lazy' src="/images/profile-3.jpg" alt="" className='w-12 h-12 rounded-full' />
               <div className='leading-6 '>
                 <h3 className='font-bold tracking-wider'>Iva Boyd</h3>
                 <p className='text-xs'>Founder & CEO, Huddle</p>
