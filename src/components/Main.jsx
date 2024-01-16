@@ -10,7 +10,7 @@ const Main = () => {
             <h1 className='
             font-raleway font-bold text-2xl text-white px-5 pt-4 leading-9 z-20 lg:text-4xl lg:leading-[3.5rem]'>All your files in one secure location,<br className='hidden lg:block pt-4 lg:py-4'/> accessible anywhere.</h1>
 
-            <p className=' text-white px-7 pt-4 pb-8  z-20 lg:px-64'>
+            <p className=' text-white px-7 pt-4 pb-12  z-20 lg:px-64'>
             Fylo stores all your most important files in one secure location. Access them wherever 
             you need, share and collaborate with friends family, and co-workers.
             </p>
@@ -20,10 +20,10 @@ const Main = () => {
           
         </section>
         
-        <div className='bg-Dark-Blue-main text-center flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-2'>
+        <div className=' features bg-Dark-Blue-main text-center flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-2'>
           <section className=''>
             <div className='pt-32 flex items-center justify-center flex-col text-white lg:pt-28'>
-              <img loading='lazy' src="/images/icon-access-anywhere.svg" alt="" />
+              <img loading='lazy' src="/images/icon-access-anywhere.svg" alt="" className='icon-one'/>
               <h2 className='text-xl pt-10 font-bold'>Access your files, anywhere</h2>
               <p className='px-8 py-3'>The ability to use a smartphone, tablet, or computer to access your account means your 
             files follow you everywhere.</p>
