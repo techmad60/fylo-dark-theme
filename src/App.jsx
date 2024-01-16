@@ -119,6 +119,24 @@ function App() {
     const element = container.current;
 
     gsap.from(
+      element.querySelector('.more-features-text'),
+      {
+        duration: 1.5,
+        x: '-200vw',
+        ease: 'back',
+        scrollTrigger: {
+          trigger: element.querySelector('.more-features-text'),
+          start: "top 80%", // Adjust the start position as needed
+          end: "bottom 20%", // Adjust the end position as needed
+         }
+      }
+
+    );
+  }, { scope: container });
+  useGSAP(() => {
+    const element = container.current;
+
+    gsap.from(
       element.querySelectorAll('.testimonial'),
       {
        opacity: 0,

@@ -63,7 +63,7 @@ const Main = () => {
               <img loading='lazy' src="/images/illustration-stay-productive.png" alt="" />
             </div>
             
-            <div>
+            <div className='more-features-text'>
               <h2 className='text-xl pt-10 font-bold lg:text-3xl'>Stay productive,<br className='hidden lg:block'/> wherever you are</h2>
               <p className='py-4'>Never let location be an issue when accessing your files. Fylo has you covered for all of your file 
               storage needs.</p>
