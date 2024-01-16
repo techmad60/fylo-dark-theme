@@ -106,7 +106,6 @@ function App() {
       {
        rotation: 360,
        duration: 2,
-       delay: 1,
        ease: 'bounce.out',
        scrollTrigger: {
         trigger: element.querySelector('.more-features'),
@@ -126,7 +125,6 @@ function App() {
        x: 50,
        stagger: 0.2,
        duration: 1,
-       delay: 1,
        ease: 'power3.out',
        scrollTrigger: {
         trigger: element.querySelector('.testimonial'),
