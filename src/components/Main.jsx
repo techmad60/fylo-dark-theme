@@ -57,9 +57,9 @@ const Main = () => {
           </section>
         </div>
        
-        <section className=' bg-Dark-Blue-main text-start w-full more-features'>
+        <section className=' bg-Dark-Blue-main text-start w-full '>
           <div className='pt-32 flex  flex-col text-white px-5 lg:grid lg:grid-cols-2 lg:justify-between lg:items-center lg:px-10 lg:space-x-8'>
-            <div className='flex-grow'>
+            <div className='flex-grow more-features'>
               <img loading='lazy' src="/images/illustration-stay-productive.png" alt="" />
             </div>
             
@@ -79,8 +79,8 @@ const Main = () => {
           </div>
         </section>
 
-        <section className='testimonials-firstchild flex flex-col items-center justify-center bg-Dark-Blue-main text-white pb-96 pt-44 text-sm w-full lg:flex lg:flex-row lg:justify-between lg:space-x-6 lg:px-10'>
-          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
+        <section className='testimonials-firstchild flex flex-col items-center justify-center bg-Dark-Blue-main text-white pb-96 pt-44 text-sm w-full lg:flex lg:flex-row lg:justify-between lg:space-x-6 lg:px-10 testimonial-container'>
+          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6 testimonial '>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
@@ -92,7 +92,7 @@ const Main = () => {
             </div>
           </div>
 
-          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
+          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6 testimonial'>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>
@@ -103,7 +103,7 @@ const Main = () => {
               </div>
             </div>
           </div>
-          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6'>
+          <div className='bg-Dark-Blue-testimonials w-10/12 p-5 flex flex-col rounded-md mb-6 testimonial'>
             <p className='leading-6 py-4'>Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has 
             become a well-oiled collaboration machine</p>
             <div className='flex space-x-4 items-center'>

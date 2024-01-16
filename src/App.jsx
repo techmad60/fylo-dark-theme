@@ -102,16 +102,36 @@ function App() {
     const element = container.current;
 
     gsap.to(
-      element.querySelector('.email'),
+      element.querySelector('.more-features'),
       {
        rotation: 360,
        duration: 2,
-       delay: 1,
+       delay: 2,
        ease: 'bounce.out',
        scrollTrigger: {
-        trigger: element.querySelector('.email'),
+        trigger: element.querySelector('.more-features'),
         start: "top 80%", // Adjust the start position as needed
         end: "bottom 20%", // Adjust the end position as needed
+       }
+      }
+    );
+  }, { scope: container });
+  useGSAP(() => {
+    const element = container.current;
+
+    gsap.from(
+      element.querySelectorAll('.testimonial'),
+      {
+       opacity: 0,
+       x: 50,
+       stagger: 0.2,
+       duration: 3,
+       delay: 3,
+       ease: 'power3.out',
+       scrollTrigger: {
+        trigger: element.querySelector('.testimonial'),
+        start: "top bottom",
+        end: "bottom top",
        }
       }
     );
