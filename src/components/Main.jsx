@@ -10,7 +10,7 @@ const Main = () => {
             <h1 className='
             font-raleway font-bold text-2xl text-white px-5 pt-4 leading-9 z-20 lg:text-4xl lg:leading-[3.5rem]'>All your files in one secure location,<br className='hidden lg:block pt-4 lg:py-4'/> accessible anywhere.</h1>
 
-            <p className=' text-white px-7 pt-4 pb-12  z-20 lg:px-64'>
+            <p className=' text-white px-7 pt-4 pb-8  z-20 lg:px-64'>
             Fylo stores all your most important files in one secure location. Access them wherever 
             you need, share and collaborate with friends family, and co-workers.
             </p>
@@ -20,8 +20,8 @@ const Main = () => {
           
         </section>
         
-        <div className=' features bg-Dark-Blue-main text-center flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-2'>
-          <section className=''>
+        <div className='features bg-Dark-Blue-main text-center flex flex-col lg:grid lg:grid-rows-2 lg:grid-cols-2'>
+          <section className='feature-section'>
             <div className='pt-32 flex items-center justify-center flex-col text-white lg:pt-28'>
               <img loading='lazy' src="/images/icon-access-anywhere.svg" alt="" className='icon-one'/>
               <h2 className='text-xl pt-10 font-bold'>Access your files, anywhere</h2>
@@ -30,7 +30,7 @@ const Main = () => {
             </div>
           </section>
 
-          <section className=''>
+          <section className='feature-section'>
             <div className='pt-24 flex items-center justify-center flex-col text-white'>
               <img loading='lazy' src="/images/icon-security.svg" alt=""/>
               <h2 className='text-xl pt-10 font-bold'>Security you can trust</h2>
@@ -38,7 +38,7 @@ const Main = () => {
             </div>
           </section>
 
-          <section className=''>
+          <section className='feature-section'>
             <div className='pt-24 flex items-center justify-center flex-col text-white'>
               <img loading='lazy' src="/images/icon-collaboration.svg" alt="" />
               <h2 className='text-xl pt-10 font-bold'>Real-time collaboration</h2>
@@ -47,7 +47,7 @@ const Main = () => {
               </p>
             </div>
           </section>
-          <section className=''>
+          <section className='feature-section'>
             <div className='pt-24 flex items-center justify-center flex-col text-white '>
               <img loading='lazy' src="/images/icon-any-file.svg" alt="" />
               <h2 className='text-xl pt-10 font-bold'>Store any type of file</h2>
@@ -57,7 +57,7 @@ const Main = () => {
           </section>
         </div>
        
-        <section className=' bg-Dark-Blue-main text-start w-full'>
+        <section className=' bg-Dark-Blue-main text-start w-full more-features'>
           <div className='pt-32 flex  flex-col text-white px-5 lg:grid lg:grid-cols-2 lg:justify-between lg:items-center lg:px-10 lg:space-x-8'>
             <div className='flex-grow'>
               <img loading='lazy' src="/images/illustration-stay-productive.png" alt="" />
@@ -116,7 +116,7 @@ const Main = () => {
           </div>
         </section>
         
-        <div className='relative flex justify-center items-center w-full'>
+        <div className='relative flex justify-center items-center w-full email-info'>
         <section className='email flex items-center flex-col justify-center justify-self-end text-white absolute  bg-Dark-Blue-email text-center w-11/12 rounded-md shadow-black shadow-md px-6 pt-3 z-50 pb-8 lg:w-3/4 lg:px-12'>
           <h2 className='text-xl font-semibold py-4 lg:text-2xl'>Get early access today</h2>
 
