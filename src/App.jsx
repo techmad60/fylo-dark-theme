@@ -25,7 +25,7 @@ function App() {
     // tl.from(".illustration-img-one", {duration: 1, x: '-100vw', ease: 'bounce'});
     tl.from(".illustration-img-one", {duration: 1.5, x: '-100vw', ease: 'back'});
     tl.from(".intro", {duration: 1.5, opacity: 0, scale: 0.3, ease: "back",});
-    tl.fromTo(".icon-one", {duration: 1.5, y: '-100vh', ease: "back", scrollTrigger: ".features"})
+    // tl.fromTo(".icon-one", {duration: 1.5, y: '-100vh', ease: "back", scrollTrigger: ".features"})
 
 
     
@@ -39,7 +39,7 @@ function App() {
     //   repeat: 1, // the number of repeats - this will play 3 times
     //   yoyo: true, // this will alternate back and forth on each repeat. Like a yoyo
     // });
-    tl.to(".email", { rotation: 360, duration: 2, delay: 2, ease: "bounce.out" });
+    // tl.to(".email", { rotation: 360, duration: 2, delay: 2, ease: "bounce.out" });
   }, { scope: container }) // <-- scope for selector text (optional)
   
   return (
